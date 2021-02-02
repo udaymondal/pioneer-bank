@@ -10,3 +10,6 @@ body{
     box-shadow: 5px 5px 10px grey;
     background-color: white;
 }
+#transaction-area{
+    display: none;
+}
