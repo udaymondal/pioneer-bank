@@ -1,3 +1,4 @@
+// login button event handler
 const loginBtn = document.getElementById('login');
 loginBtn.addEventListener('click', function () {
     const loginArea = document.getElementById('login-area');
@@ -6,4 +7,6 @@ loginBtn.addEventListener('click', function () {
     transactionArea.style.display = 'block';
     console.log("Login Area Vanished, we twicked CSS");
   });
+
+
 
